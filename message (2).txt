@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html class="no-js"lang=eng>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+         <title>INTERTECH</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/icon.png">
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/price_rangs.css">
+        <link rel="stylesheet" href="assets/css/slicknav.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+     
+    <body style="background-image: url('https://images.unsplash.com/photo-1612171709933-024a90133e42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80'); background-repeat: no-repeat; background-size: cover;">
+   
+        <div style="position: relative; margin-top: -48px;"> <img src="./assets/img/logo/Ourlogo.png"> </div>
+
+   
+    <main style="margin-top: -70px;">
+  
+        <!-- slider Area Start-->
+        <div  class="slider-area ">
+            <!-- Mobile Menu -->
+            <div class="slider-active">
+                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/back.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="hero__caption">
+                                    <h2 style="font-size: 48px;"><span style="text-shadow: 1px 1px #ffffff;">Choose the right internship for you  & Boost your career</span> </h2>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 my-1 mb-5">
+                                <center><h2 style="font-size: 24px;">Sign in</h2></center> 
+                                <center><h2 style="font-size: 18px;">To your Intertech account</h2></center> 
+                                <div>
+                                    <label for=""><span style="text-shadow: 1px 1px #ffffff;">E-mail</span></label>
+                                    <input type="text" name="fname" placeholder="" class="form-control form-control-sm">
+                                </div>
+                                <div>
+                                    <label style="padding-top: 16px;" for=""><span style="text-shadow: 1px 1px #ffffff;"</span>Password</label>
+                                    <input type="text" name="lname" placeholder="" class="form-control form-control-sm">
+                                </div>
+                                <center><div style="padding-top: 32px;" class="d-grid gap-5 col-5 mx-auto">
+                                   <button class="btn-warning btn-lg" type="button">Sign in</button>
+                                </div></center>
+                            </div>
+                         <!--Contact US section-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </main>                  <!-- JS here -->
+	
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/price_rangs.js"></script>
+        
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+    
+   
+</html>
