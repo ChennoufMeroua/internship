@@ -6,56 +6,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <title>Document</title>
 </head>
 <body>
     <nav>
     <ul>
         <li><a href="signin">Sign in </a></li>
-        <li><a href="default.asp">About us</a></li>
+        <li><a href="about.html">About us</a></li>
         <li><a href="news.asp">Terms & Conditions</a></li>
         <li><a href="contact.asp">Privacy</a></li>
         <li><a href="about.asp">Our services</a></li>
-        <li><a href="ourservice.asp">Contact us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
        
       </ul>
-     </nav>
+      </nav>
+      
+    
+   
 
      <div class="flex-container">
-         <div class="flex-item">Search</div>
-         <div class="flex-item">Browser</div>
-         <div class="flex-item">My Wishlist</div>
-         <div class="flex-item">Profile</div>
+     <div class="flex-item" >Search <span class="glyphicon glyphicon-search"></span></span></div> 
+         <div class="flex-item">Browser <span class="glyphicon glyphicon-search"></span></div>
+         <div class="flex-item">My Wishlist<span class="glyphicon glyphicon-search"></span></div>
+         <div class="flex-item">Profile <span class="glyphicon glyphicon-search"></span></div>
      </div>
      <div class="main-div">
 
         <form>
-            <label for="fname">Keywords:</label>
-            <input type="text" id="fname" name="fname"> 
-            <label for="fname">States/Cities:</label>
+            <label for="fname">Keywords:</label> <br>
+            <input type="text" id="fname" name="fname"> <br>
+            <label for="fname">States/Cities:</label> <br>
             <input type="text" id="fname" name="fname"> <br>
              <br>
             <br>
             <br>
             <input type="submit" value="begin your search">
-          </form>
+           
+        </form>
      </div>
-     <div>
-     <footer>
-        <p>Copyright intertech , inc 2022 all rights reserved<br>
-        <a href="#" class="fa fa-facebook" ></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-youtube"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-      </footer>
+
+     
+     <div class="container pt-5">
+      <div class="d-flex flex-column text-center mb-5">
+          <h5 class="text-primary mb-3">popular</h5>
+          <h1 class="m-0">popular companies and reviews</h1>
       </div>
+      <div class="row pb-3">
+          <div class="col-lg-4 mb-4">
+              <div class="card mb-2 p-3">
+                  <img class="card-img-top" src="./img/stage2.jpeg" alt="">
+                  <div class="card-body bg-secondary d-flex align-items-center p-0">
+                      <h6 class="card-title text-white text-truncate m-0 ml-3">Diam amet eos at no eos</h6>
+                      <a href="" class="fa fa-heart d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white text-decoration-none m-0 ml-auto" style="width: 45px; height: 45px;"></a>
+                  </div>
+                  <div class="card-footer py-3 px-4">
+                      <div class="d-flex mb-2">
+                          <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
+                          <small class="mr-3"><i class="fa fa-folder text-primary"></i> Apply</small>
+                          <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
+                      </div>
+                      <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+              <div class="card mb-2 p-3">
+                  <img class="card-img-top" src="./img/campany1.jpeg">
+                  <div class="card-body bg-secondary d-flex align-items-center p-0">
+                      <h6 class="card-title text-white text-truncate m-0 ml-3">Diam amet eos at no eos</h6>
+                      <a href="" class="fa fa-heart d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white text-decoration-none m-0 ml-auto" style="width: 45px; height: 45px;"></a>
+                  </div>
+                  <div class="card-footer py-3 px-4">
+                      <div class="d-flex mb-2">
+                          <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
+                          <small class="mr-3"><i class="fa fa-folder text-primary"></i> Apply</small>
+                          <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
+                      </div>
+                      <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+              <div class="card mb-2 p-3">
+                  <img class="card-img-top" src="./img/campany1.jpeg" alt="">
+                  <div class="card-body bg-secondary d-flex align-items-center p-0">
+                      <h6 class="card-title text-white text-truncate m-0 ml-3">Diam amet eos at no eos</h6>
+                      <a href="" class="fa fa-heart d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white text-decoration-none m-0 ml-auto" style="width: 45px; height: 45px;"></a>
+                  </div>
+                  <div class="card-footer py-3 px-4">
+                      <div class="d-flex mb-2">
+                          <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
+                          <small class="mr-3"><i class="fa fa-folder text-primary"></i> Apply</small>
+                          <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
+                      </div>
+                      <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
 
 
 
 
 
+ 
+<footer class="page-footer font-small special-color-dark pt-4">
+
+ 
+    <div class="container">
+  
+   
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fa fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fa fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fa fa-linkedin"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1">
+            <i class="fa fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
+      
+  
+    </div>
 
 
 
+    
+   
+ 
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://intertech.com/"> intertech.com</a>
+    </div>
+    
+  
+  </footer>
+ 
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>  
 </body>
 </html>
